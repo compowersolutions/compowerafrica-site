@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Copower Africa</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header container">
+    <img id="logo" src="/assets/logo.png" alt="Copower Africa Logo" />
+    <nav class="main-nav">
+      <a href="/">Home</a>
+      <a href="/services.html">Services</a>
+      <a href="/register.html">Register</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/download.html">Download</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Contact Us</h1>
+    <form id="contactForm">
+      <label>Name<input name="name" required /></label>
+      <label>Email<input name="email" type="email" required /></label>
+      <label>Message<textarea name="message" rows="6"></textarea></label>
+      <button type="submit">Send</button>
+      <p id="contactMessage" class="message"></p>
+    </form>
+  </main>
+
+  <script src="/scripts.js"></script>
+</body>
+</html>

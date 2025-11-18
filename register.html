@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Register — Copower Africa</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header container">
+    <img id="logo" src="/assets/logo.png" alt="Copower Africa Logo" />
+    <nav class="main-nav">
+      <a href="/">Home</a>
+      <a href="/services.html">Services</a>
+      <a href="/register.html">Register</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/download.html">Download</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Register</h1>
+    <p>Sign up to access services, downloads and support.</p>
+
+    <form id="registerForm">
+      <label>Name<input name="name" required /></label>
+      <label>Email<input name="email" type="email" required /></label>
+      <label>Company<input name="company" /></label>
+      <label>Phone<input name="phone" /></label>
+      <label>Service of interest
+        <select name="service">
+          <option>Solar PV Systems</option>
+          <option>Generators</option>
+          <option>Hybrid Systems</option>
+          <option>Maintenance</option>
+        </select>
+      </label>
+      <button type="submit">Register</button>
+      <p id="registerMessage" class="message"></p>
+    </form>
+  </main>
+
+  <script src="/scripts.js"></script>
+</body>
+</html>
